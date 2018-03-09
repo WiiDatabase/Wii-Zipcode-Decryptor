@@ -1,4 +1,4 @@
-Wii DAT Decryptor for "Set Personal Data Channel"
+Wii Zipcode Decryptor for "Set Personal Data Channel"
 ==============
 This Python 3 script decrypts DAT files from the Wii's japan-only "Set Personal Data Channel" (000100084843434A).
 Thanks to Larsenv from [RiiConnect24](https://rc24.xyz/) for figuring out the keys and the format!
