@@ -15,5 +15,5 @@ Thanks to Larsenv from [RiiConnect24](https://rc24.xyz/) for figuring out the ke
 
 ## Technical stuff
 1. Remove the first 320 bytes (the RSA signature) from the DAT file
-2. Decrypt it with AES-256-CBC mode and the key `01676854AC6A4049BE124975A9E2233E96BCE619BFD6472EBD2778933C10FFE5` with `A03F89FA977647DBB42ACF16EAB6DB3E` as initialiazation vector
+2. Decrypt it with AES-256-CBC mode and the key `01676854AC6A4049BE124975A9E2233E96BCE619BFD6472EBD2778933C10FFE5` with `A03F89FA977647DBB42ACF16EAB6DB3E` as initialization vector
 3. You get a file with "zpcd" as the first bytes. Remove the first 25 bytes from the decrypted data and you get an LZ77-compressed archive
